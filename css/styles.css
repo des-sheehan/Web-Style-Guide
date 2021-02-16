@@ -437,29 +437,29 @@ a {
   border-radius: 5px;
 }
 
-/* line 19, E:/Documents/GitHub/techdegree-project-04/scss/components/_buttons.scss */
-.default {
+/* line 4, E:/Documents/GitHub/techdegree-project-04/scss/utilities/_mixins.scss */
+.btn.default {
   background-color: #51ddfc;
 }
 
-/* line 23, E:/Documents/GitHub/techdegree-project-04/scss/components/_buttons.scss */
-.error {
-  background-color: #e4757a;
-}
-
-/* line 27, E:/Documents/GitHub/techdegree-project-04/scss/components/_buttons.scss */
-.info {
-  background-color: #927bc1;
-}
-
-/* line 31, E:/Documents/GitHub/techdegree-project-04/scss/components/_buttons.scss */
-.success {
+/* line 4, E:/Documents/GitHub/techdegree-project-04/scss/utilities/_mixins.scss */
+.btn.success {
   background-color: #63cc82;
 }
 
-/* line 35, E:/Documents/GitHub/techdegree-project-04/scss/components/_buttons.scss */
-.warning {
+/* line 4, E:/Documents/GitHub/techdegree-project-04/scss/utilities/_mixins.scss */
+.btn.error {
+  background-color: #e4757a;
+}
+
+/* line 4, E:/Documents/GitHub/techdegree-project-04/scss/utilities/_mixins.scss */
+.btn.warning {
   background-color: #fd7856;
+}
+
+/* line 4, E:/Documents/GitHub/techdegree-project-04/scss/utilities/_mixins.scss */
+.btn.info {
+  background-color: #927bc1;
 }
 
 /* ============================================= */
