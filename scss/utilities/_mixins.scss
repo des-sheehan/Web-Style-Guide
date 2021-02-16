@@ -1,8 +1,16 @@
 
+// mixin for buttons. Also has :hover nested inside.
+
 @mixin bg-colors($map) {
     @each $theme, $color in $map {
         &.#{$theme} {
             background-color: $color;
-        }    
-    }
+            transition: 
+          background-color .2s ease-in-out, 
+          color .2s ease-in-out; 
+                &:hover {
+          background-color: lighten($color, 15%);
+      }
+    }    
+  }
 }
