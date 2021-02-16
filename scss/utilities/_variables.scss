@@ -1,0 +1,55 @@
+
+//--- Descriptive Base Colors
+
+$white:                  #fff;
+$grey:                   #777;
+
+$turquoise:              #58e1c1;
+$sunglo:                 #e4757a;
+$coral:                  #fd7856;
+
+$lilac-bush:             #927bc1;
+$coral:                  #fd7856;
+$wisteria:               #deb2ee;
+$electric-blue:          #7ee6fd;
+$apple-green:            #88d9a0;
+$boston-blue:            #4da2bb;
+$wax-flower:             #ec9fa3;
+$mona-lisa:              #fd9f85;
+$froly:                  #e4757a;
+$emerald:                #63cc82;
+$maya-blue:              #51ddfc;
+$riptide:                #80e8d1;
+
+
+//--- COLOR USAGE
+
+$color-primary:         $turquoise;       
+$color-secondary:       $maya-blue;
+
+$color-font:            $grey;
+
+$color-error:           $sunglo;  
+$color-warning:         $coral;
+$color-success:         $emerald;
+$color-info:            $lilac-bush; 
+
+//--- UI COLORS
+
+$ui-colors: (
+    default :  $maya-blue,
+    success:   $emerald,
+    error:     $sunglo,
+    warning:   $coral,
+    info:      $lilac-bush,   
+);
+
+//--- TYPE VARIABLES
+
+//$base__font-size:        
+
+$font-stack:            'Lato', sans-serif;
+
+$font-weight--light:    300;
+$font-weight--heavy:    700;
+
