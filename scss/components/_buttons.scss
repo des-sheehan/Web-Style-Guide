@@ -3,7 +3,7 @@
 /* ============================================= */
 
 .btn {
-  @include bg-colors($ui-colors)
+  @include bg-colors($ui-colors);
   margin-top: 15px;
   width: 100%;
   color: $white;
